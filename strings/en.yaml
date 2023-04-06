@@ -1,0 +1,8 @@
+readqr:
+  usg: "<b>( •_•) Use: /readqr [reply to photo]</b>"
+  decrypted: "<b>٩(＾◡＾)۶ Deciphered text:</b>"
+  fail: "<b>(╯•ᗣ•╰) Failed to recognize QR code!</b>"
+genqr:
+  genuse: "<b>( •_•) Use: /genqr [text]</b>"
+errors:
+    error: "<b>Error: </b>"

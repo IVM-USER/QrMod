@@ -14,6 +14,7 @@ url2 = "https://api.qrserver.com/v1/read-qr-code/?outputformat=json"
 class QrMod(BaseModule):
     @command("readqr")
     async def readqrcode(self, _, message: Message):
+        """Read Qr-Code"""
         use = self.S["readqr"]["usg"]
         decr = self.S["readqr"]["decrypted"]
         failed = self.S["readqr"]["fail"]
@@ -40,6 +41,7 @@ class QrMod(BaseModule):
 
     @command("genqr")
     async def genqrcode(self, _, message: Message):
+        """Generate Qr-code"""
         usegen = self.S["genqr"]["genuse"]
         generr = self.S["errors"]['error']
         if len(message.text.split()) < 2:
